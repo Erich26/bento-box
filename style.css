@@ -1,0 +1,37 @@
+#bamboo {
+    grid-area: bamboo;
+    margin-left: -184px;
+}
+
+#fish {
+    grid-area: fish;
+}
+
+#map {
+    grid-area: map;
+}
+
+#quad {
+    grid-area: quad;
+    margin-left: -184px;
+    margin-top: -5px;
+}
+
+#vase-short {
+    grid-area: vase-short;
+}
+
+#vase-tall {
+    grid-area: vase-tall;
+}
+
+#parent {
+    display: grid;
+    grid-template-columns: 298px 30px;
+    grid-template-rows: 80px 100px;
+    grid-template-areas: 
+    "fish vase-short"
+    "map vase-short"
+    "vase-tall bamboo"
+    "vase-tall quad";
+}
